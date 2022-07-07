@@ -1,0 +1,29 @@
+@import "./fonts";
+$primary-font-family: 'IBM Plex Sans';
+@mixin font-thin {
+    font-family: $primary-font-family;
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@mixin font-normal {
+    font-family: $primary-font-family;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@mixin font-medium {
+    font-family: $primary-font-family;
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@mixin font-bold {
+    font-family: $primary-font-family;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
