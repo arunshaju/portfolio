@@ -3,23 +3,18 @@ const Education = () =>{
     const ExpInfo = [
         {
             year: "2020 - 2022",
-            course: "Mitsogo",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident perferendis in nesciunt."
+            course: "Mitsogo Technologies Pvt. Ltd.",
+            description: "Front-end and WordPress Developer"
         },
         {
-            year: "Higher Secondary",
-            course: "B-Tech",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident perferendis in nesciunt."
+            year: "2019 - 2020",
+            course: "Cyfer Solutions",
+            description: "Front-end and WordPress Developer"
         },
         {
-            year: "2014 - 2018",
-            course: "B-Tech",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident perferendis in nesciunt."
-        },
-        {
-            year: "2014 - 2018",
-            course: "B-Tech",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident perferendis in nesciunt."
+            year: "2018 - 2019",
+            course: "Pixelflames Technologies",
+            description: "Front-end and WordPress Developer"
         }
     ];
     return(

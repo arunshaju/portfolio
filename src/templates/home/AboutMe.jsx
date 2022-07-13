@@ -1,6 +1,5 @@
-import { FaRegIdCard,FaMapMarkerAlt,FaMobileAlt,FaEnvelope,FaGlobe,FaFacebookF,FaInstagram,FaLinkedinIn,FaUserAlt,FaGlobeAsia } from "react-icons/fa";
+import { FaMapMarkerAlt,FaMobileAlt,FaEnvelope,FaGlobe,FaFacebookF,FaInstagram,FaLinkedinIn,FaUserAlt,FaGlobeAsia } from "react-icons/fa";
 import CommonTitle from "../../comp/titles/index";
-import SubTitle from "../../comp/titles/SubTitle";
 import PersonalDetails from "../../comp/contact/PersonalDetails";
 import SocialMedia from "../../comp/contact/SocialMedia";
 
@@ -37,8 +36,8 @@ const AboutMe = () =>{
 		{
 			title: "Website",
 			icon: <FaGlobe />,
-			description: "http://arunshaju.me",
-			linkitem: "http://arunshaju.me"
+			description: "http://arunshaju.online",
+			linkitem: "http://arunshaju.online"
 		},
     {
 			title: "Nationality",
@@ -50,32 +49,23 @@ const AboutMe = () =>{
   const SocialMediaData = [
 		{
 			icon: <FaLinkedinIn />,
-			link: "#li"
+			link: "https://www.linkedin.com/in/arun-shaju-764b0812a"
 		},
 		{
 			icon: <FaInstagram />,
-			link: "#insta"
+			link: "https://www.instagram.com/shajuarun/"
 		},
 		{
 			icon: <FaFacebookF />,
-			link: "#fb"
+			link: "https://www.facebook.com/arun.shaju.7"
 		}
 	];
     return(
         <>
         <div className="home-stripe-main home-stripe-main--about" id="about-section">
-          <div className="home-stripe__aside">
-            <div className="home-stripe--one__logo">
-              <FaRegIdCard />
-            </div>
-            <div className="home-stripe--one__block-name">
-              <h4><span className="color-white">A</span><span className="color-white">B</span><span className="color-white">O</span><span className="color-white">U</span><span className="color-white">T</span> <span className="color-pink letter-space-adj">M</span><span className="color-pink">E</span></h4>
-            </div>
-          </div>
           <div className="home-stripe__full-blocks">
             <CommonTitle FirstText={TitleFirstElement} SecondText={TitleSecondElement} TextColor={TextPrimaryColor} />
             {/* Personal info starts */}
-            <SubTitle SubTitle={"Personal Info"} BorderColor={"pink"}/>
             <div className="home-stripe-com-bg-transperent">
               <div className="about-desc">
                 <p>I am web developer from Kerala, India.  I am very passionate and dedicated to my work. I have 4 years more work experience. And enjoy working in a team or individual.</p>

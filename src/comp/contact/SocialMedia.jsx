@@ -8,7 +8,7 @@ const SocialMedia = (props) =>{
         <>
         {
             SocialMedia &&
-            <a href={SocialMedia.link}  className="social-media-icon">
+            <a href={SocialMedia.link}  target="_blank" rel="noopener noreferrer"  className="social-media-icon">
                 <div className="front-icon">
                     {SocialMedia.icon}
                 </div>

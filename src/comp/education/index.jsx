@@ -4,22 +4,17 @@ const Education = () =>{
         {
             year: "2014 - 2018",
             course: "B-Tech",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident perferendis in nesciunt."
+            description: "Computer Science And Engineering - University of Calicut"
         },
         {
-            year: "Higher Secondary",
-            course: "B-Tech",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident perferendis in nesciunt."
+            year: "2012 - 2014",
+            course: "Higher Secondary",
+            description: "Kerala State Education Board."
         },
         {
-            year: "2014 - 2018",
-            course: "B-Tech",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident perferendis in nesciunt."
-        },
-        {
-            year: "2014 - 2018",
-            course: "B-Tech",
-            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias provident perferendis in nesciunt."
+            year: "2012",
+            course: "Secondary Education",
+            description: "Kerala State Education Board."
         }
     ];
     return(

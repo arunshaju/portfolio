@@ -10,12 +10,12 @@ const FunFactsWrapper = () =>{
         },
         {
             icon: <FaHandshake />,
-            count: "50+",
+            count: "60+",
             description: "Done projects"
         },
         {
             icon: <FaHeart />,
-            count: "12+",
+            count: "13+",
             description: "Happy customers"
         }
     ];

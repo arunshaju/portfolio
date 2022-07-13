@@ -1,36 +1,34 @@
 import NavItemBlock from "./NavItemBlock";
-import { FaUserTie,FaRegFileAlt,FaShoppingBag,FaEnvelope } from "react-icons/fa";
 
 const MenuWrapper = () =>{
 	
-
 	const Arraydata = [
 		{
-			white_text : "ABOUT",
+			white_text : "About Me",
 			pink_text : "ME",
 			color : "pink",
-			icon : <FaUserTie />,
+			icon : "about",
 			menu : "about",
 		},
 		{
-			white_text : "MY",
+			white_text : "My Resume",
 			pink_text : "RESUME",
 			color : "yellow",
-			icon : <FaRegFileAlt />,
+			icon : "resume",
 			menu : "my_resume"
 		},
 		{
-			white_text : "MY",
+			white_text : "My Portfolio",
 			pink_text : "PORTFOLIO",
 			color : "green",
-			icon : <FaShoppingBag />,
+			icon : "portfolio",
 			menu : "my_portfolio",
 		},
 		{
-			white_text : "CONTACT",
+			white_text : "Contact Me",
 			pink_text : "ME",
 			color : "blue",
-			icon : <FaEnvelope />,
+			icon : "contact",
 			menu : "contact_me",
 		}
 	];

@@ -4,8 +4,6 @@ import SecondStripe from "./secondStripeBlock";
 import ThirdStripeBlock from "./ThirdStripeBlock";
 import FourthStripe from "./FourthStripe";
 import AboutMe from "./AboutMe";
-import { FaTimesCircle } from "react-icons/fa";
-
 const Home = () =>{
     return(
       <>
@@ -16,9 +14,6 @@ const Home = () =>{
         <ThirdStripeBlock />
         <FourthStripe />
         <ProfileBlock />
-        <div className="close-menu" id="close-details">
-          <FaTimesCircle />
-        </div>
       </div>
       </>
       

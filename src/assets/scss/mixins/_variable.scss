@@ -1,5 +1,5 @@
 @import "./fonts";
-$primary-font-family: 'IBM Plex Sans';
+$primary-font-family: 'THICCCBOI';
 @mixin font-thin {
     font-family: $primary-font-family;
     font-weight: 100;
@@ -9,7 +9,7 @@ $primary-font-family: 'IBM Plex Sans';
 
 @mixin font-normal {
     font-family: $primary-font-family;
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }

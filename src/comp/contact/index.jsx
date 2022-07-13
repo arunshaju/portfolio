@@ -24,22 +24,22 @@ const ContactInfo = () =>{
 		{
 			title: "Website",
 			icon: <FaGlobe />,
-			description: "http://arunshaju.me",
-			linkitem: "http://arunshaju.me"
+			description: "http://arunshaju.online",
+			linkitem: "http://arunshaju.online"
 		}
 	];
 	const SocialMediaData = [
 		{
 			icon: <FaLinkedinIn />,
-			link: "#li"
+			link: "https://www.linkedin.com/in/arun-shaju-764b0812a"
 		},
 		{
 			icon: <FaInstagram />,
-			link: "#insta"
+			link: "https://www.instagram.com/shajuarun/"
 		},
 		{
 			icon: <FaFacebookF />,
-			link: "#fb"
+			link: "https://www.facebook.com/arun.shaju.7"
 		}
 	];
     return(

@@ -3,12 +3,18 @@ import AptaImage from "../../assets/images/apta.png";
 import Quinza from "../../assets/images/quinza.png";
 import Recruit from "../../assets/images/recruit121.png";
 import Weconnect from "../../assets/images/weconnect.png";
+import Mbru from "../../assets/images/mbru.png"
 
 const ProjectWrapper = () =>{
 	const ProjectData = [
 		{
 			image: AptaImage,
 			pname: "Apta Advice",
+			ptype: "WordPress Website"
+		},
+		{
+			image: Mbru,
+			pname: "MBR University",
 			ptype: "WordPress Website"
 		},
 		{

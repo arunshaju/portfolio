@@ -3,37 +3,45 @@ const SkillFullBlock = () =>{
 		const SoftSkillData = [
 			{
 				skill : "Leadership",
-				percentage : "70",
-			},
-			{
-				skill : "Leadership",
 				percentage : "80",
 			},
 			{
-				skill : "Leadership",
+				skill : "Responsibility",
+				percentage : "95",
+			},
+			{
+				skill : "Teamwork",
 				percentage : "90",
 			},
 			{
-				skill : "Leadership",
-				percentage : "90",
+				skill : "Problem Solving",
+				percentage : "88",
+			},
+			{
+				skill : "Communication",
+				percentage : "75",
 			}
 		];
 		const HardSkillData = [
 			{
 				skill : "HTML5/CSS3/SASS",
-				percentage : "70",
+				percentage : "90",
 			},
 			{
-				skill : "Leadership",
+				skill : "WordPress/PHP",
+				percentage : "85",
+			},
+			{
+				skill : "Javascript/JQuery",
 				percentage : "80",
 			},
 			{
-				skill : "Leadership",
-				percentage : "90",
+				skill : "React JS",
+				percentage : "60",
 			},
 			{
-				skill : "Leadership",
-				percentage : "90",
+				skill : "MySQL",
+				percentage : "50",
 			}
 		];
     return(

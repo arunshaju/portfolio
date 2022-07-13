@@ -1,5 +1,4 @@
 import { useEffect,useState } from "react";
-import { FaAngleDoubleRight } from "react-icons/fa";
 const EduBlock = (props) =>{
     const [eduData,seteduData] = useState(null);
     useEffect(()=>{
@@ -17,9 +16,6 @@ const EduBlock = (props) =>{
                     <div className="home-stripe-skill-wrapper__skill-item">
                         <div className="skill-item-name-with-score">
                             <div className="skill-item__name">
-                                <div className="icon">
-                                    <FaAngleDoubleRight />
-                                </div>
                                 <div className="name name--edu">
                                     <h4>{eduData.course}</h4>
                                 </div>
